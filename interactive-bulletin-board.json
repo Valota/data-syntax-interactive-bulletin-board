@@ -1,0 +1,58 @@
+{
+    "vType": "array",
+    "elem": {
+        "vType": "object",
+        "title": {
+            "vType": "text",
+            "required": 1
+        },
+        "description": {
+            "vType": "text",
+            "required": 1
+        },
+        "lead": {
+            "vType": "text",
+            "required": 1
+        },
+        "category": {
+            "vType": "text",
+            "required": 0
+        },
+        "attachments": {
+            "vType": "array",
+            "elem": {
+                "vType": "object",
+                "title": {
+                    "vType": "text",
+                    "required": 1
+                },
+                "files": {
+                    "vType": "array",
+                    "elem": {
+                        "vType": "object",
+                        "filename": {
+                            "vType": "url",
+                            "required": 1
+                        },
+                        "thumbnail": {
+                            "vType": "url",
+                            "required": 1
+                        }
+                    }
+                }
+            }
+        },
+        "document": {
+            "vType": "text",
+            "required": 1
+        },
+        "time": {
+            "vType": "int",
+            "required": 1
+        },
+        "deleted": {
+            "vType": "boolean",
+            "required": 0
+        }
+    }
+}
